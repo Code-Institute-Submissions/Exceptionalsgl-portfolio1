@@ -24,21 +24,35 @@ h1, h2 {
 }
 
 #logo {
-    float: left;
-   
-   
+    float: left; 
 }
 
+#menu, #logo {
+    line-height: 75px
+}
 
 #menu{
     font-size: medium;
     letter-spacing: 4px;
+    
+}
+
+.active{
+    border-bottom: 1px solid gray;
 }
 
 #menu li {
+    text-decoration: none;
     float: right;
     list-style: none;
     margin-right: 30px;
     font-size: medium;
     letter-spacing: 4px;
+}
+
+#menu a {
+    text-decoration: none;
+}
+#menu a:hover {
+    border-bottom: 1px solid gray;
 }
