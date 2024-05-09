@@ -43,7 +43,7 @@ button {
 
 .nav-links ul li {
     list-style-type: none;
-    margin: 0 10px;
+    margin: 0;
     padding: 0;
     text-transform: uppercase;
     text-decoration: none;
@@ -57,12 +57,12 @@ button {
 }
 
 @media screen and (max-width: 768px) {
-    .nav-links .fa-bars {
+    .nav-links {
         flex-direction: column; /* Stack items vertically on small screens */
         align-items: flex-end; /* Align items to the right */
-   
+    }
 
-   
+    .nav-links .fa-bars {
         display: inline-block; /* Show the burger menu icon on small screens */
         margin-right: 10px;
     }
