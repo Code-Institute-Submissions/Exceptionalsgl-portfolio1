@@ -1,69 +1,14 @@
-* {
-    margin: 0;
+
+@import url('https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap'); 
+
+*{
     padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    background:gray;
-    color: #ffffff;
-   
-}
- 
-h1 {
-    text-align: center;
-    font-size: medium;
-    font-weight: 400;
-}
-
-header {
-    height: 10vh;
-    line-height: 10vh;
-    padding: 0 20px;
-
-}
-
-button {
-   cursor: pointer;
-   color: green;
-   padding-right: 15px;
-}
-
-
-.nav-links {
-    position: relative;
-    display: flex;
-    justify-content: flex-end; /* Align items to the right */
-    align-items: center;
-}
-
-.nav-links form {
-    margin-left: 20px; /* Add some space between the Book Now button and the search form */
-}
-
-.nav-links ul li {
-    list-style-type: none;
+    border: none;
     margin: 0;
-    padding: 0;
-    text-transform: uppercase;
-    text-decoration: none;
-    display: inline-block;
-    margin-left: 10px;
-    transition: 0.5s;
 }
 
-.nav-links .fa-bars {
-    display: none; 
-}
 
-@media screen and (max-width: 768px) {
-    .nav-links {
-        flex-direction: column; /* Stack items vertically on small screens */
-        align-items: flex-end; /* Align items to the right */
-    }
+body{
+    font-weight: 300;
 
-    .nav-links .fa-bars {
-        display: inline-block; /* Show the burger menu icon on small screens */
-        margin-right: 10px;
-    }
 }
