@@ -1,4 +1,4 @@
-
+/* import style from google font */
 @import url('https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap'); 
 
 *{
@@ -12,3 +12,20 @@ body{
     font-weight: 300;
 
 }
+
+/*headings and logo */
+
+h1, h2 {
+    font-family: sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: green;
+}
+
+#logo {
+    float: left;
+    font-size: 200%;
+   
+   
+}
+
