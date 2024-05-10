@@ -34,7 +34,8 @@ h1, h2 {
 #menu{
     font-size: medium;
     letter-spacing: 4px;
-    
+    display: flex;
+   float: right;
 }
 
 .active{
@@ -43,7 +44,7 @@ h1, h2 {
 
 #menu li {
     text-decoration: none;
-    float: right;
+    float:right;
     list-style: none;
     margin-right: 30px;
     font-size: medium;
@@ -62,5 +63,25 @@ h1, h2 {
 #hotel-image{
     height: 600px;
     width: 100%;
-    background: url('../imsges/hotelpic.jpg');
+    background: url('../images/hotelpic.jpg') no-repeat center center;
+    
+    /* Annimations effects */
+    animation-name: hotel-ani;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+#hotel-look{
+    height: 600px;
+    width: 100%; 
+    overflow: hidden;
+}
+
+/* Animations of hotel pic */
+@keyframes hotel-ani {
+    from {
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
 }
