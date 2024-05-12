@@ -113,31 +113,19 @@ h1, h2 {
 }
 
 #service-offer {
-    height: 600px;
-
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
-#left-about {
-    padding-top: 30px;
-    width: 33%;
-    float: left;
-    background-color: aqua;
-}
-
-#right-about {
-    padding-top: 30px;
-    width: 33%;
-    float: right;
-    background-color:gold;
-}
-
+#left-about,
+#right-about,
 #center-about {
-    padding: 30px;
-    width: 33%;
-    margin: 0 auto;
-    background-color:greenyellow;
-
+    width: 30%; /* Adjust width as needed */
+    padding: 20px;
+    text-align: center;
 }
+
 #left-about img,
 #right-about img,
 #center-about img {
@@ -146,6 +134,7 @@ h1, h2 {
     border-radius: 10px;
     margin-top: 20px; /* Adjust margin as needed */
 }
+
 
 
 /* Style for sign-up and sign-in sections */
