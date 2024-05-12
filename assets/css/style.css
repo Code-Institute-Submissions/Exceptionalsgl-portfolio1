@@ -137,56 +137,10 @@ h1, h2 {
 
 
 
-/* Style for sign-up and sign-in sections */
-#sign-up, #sign-in {
-    width: 300px;
-    margin: 0 auto;
-    text-align: center;
-    margin-top: 50px;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background-color: #f9f9f9;
-}
-
-#sign-up h2, #sign-in h2 {
-    margin-bottom: 20px;
-}
-
-#sign-up form, #sign-in form {
-    display: flex;
-    flex-direction: column;
-}
-
-#sign-up label, #sign-in label {
-    margin-bottom: 10px;
-}
-
-#sign-up input, #sign-in input {
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-#sign-up button, #sign-in button {
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-#sign-up button:hover, #sign-in button:hover {
-    background-color: #0056b3;
-}
-
-
 /* Room Styles */
 .room {
     display: inline-block;
-    width: calc(33.33% - 40px); /* Adjust the width based on the number of columns */
+    width: calc(33.33% - 40px); 
     margin: 20px;
     padding: 20px;
     border: 1px solid #ccc;
@@ -195,7 +149,7 @@ h1, h2 {
     text-align: center;
     vertical-align: top;
     box-sizing: border-box;
-}
+} 
 
 .room img {
     width: 100%;
@@ -217,4 +171,125 @@ h1, h2 {
     content: "";
     display: table;
     clear: both;
+}
+
+/* Contact Page Styles */
+#contact {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contact-info {
+    margin-bottom: 30px;
+}
+
+.contact-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    font-size: 18px;
+    color: #666;
+}
+
+.contact-form {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.contact-form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.contact-form textarea {
+    height: 150px;
+}
+
+.contact-form button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}
+
+
+/* Footer Styles */
+footer {
+    background-color: #f2f2f2;
+    color:gray;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;    
+    margin: 0 auto;
+}
+
+.footer-info,
+.footer-social {
+    flex: 1;
+}
+
+.footer-info h3,
+.footer-social h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.footer-info p {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.footer-social ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-social ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer-social ul li:last-child {
+    margin-right: 0;
+}
+
+.footer-social ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.footer-social ul li a:hover {
+    text-decoration: underline;
 }
