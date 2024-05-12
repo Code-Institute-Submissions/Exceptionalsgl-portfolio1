@@ -138,6 +138,14 @@ h1, h2 {
     background-color:greenyellow;
 
 }
+#left-about img,
+#right-about img,
+#center-about img {
+    width: 100%;
+    max-width: 200px; /* Adjust maximum width as needed */
+    border-radius: 10px;
+    margin-top: 20px; /* Adjust margin as needed */
+}
 
 
 /* Style for sign-up and sign-in sections */
