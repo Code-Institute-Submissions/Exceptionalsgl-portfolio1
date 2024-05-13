@@ -121,7 +121,7 @@ h1, h2 {
 #left-about,
 #right-about,
 #center-about {
-    width: 30%; /* Adjust width as needed */
+    width: 30%; 
     padding: 20px;
     text-align: center;
 }
@@ -130,9 +130,9 @@ h1, h2 {
 #right-about img,
 #center-about img {
     width: 100%;
-    max-width: 200px; /* Adjust maximum width as needed */
+    max-width: 200px;
     border-radius: 10px;
-    margin-top: 20px; /* Adjust margin as needed */
+    margin-top: 20px; 
 }
 
 
@@ -166,7 +166,7 @@ h1, h2 {
     margin-bottom: 10px;
 }
 
-/* Clearfix to fix floating elements */
+
 .clearfix::after {
     content: "";
     display: table;
@@ -238,6 +238,31 @@ h1, h2 {
 .contact-form button:hover {
     background-color: #0056b3;
 }
+
+
+
+
+
+/* About Us section styles */
+#about-us {
+    padding: 50px 20px;
+    
+}
+
+#about-us h1 {
+    font-family: sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: green;
+    font-size: medium;
+}
+
+#about-us p {
+    font-size: 18px;
+    line-height: 1.6;
+    
+}
+
 
 
 /* Footer Styles */
