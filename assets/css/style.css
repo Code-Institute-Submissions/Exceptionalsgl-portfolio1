@@ -26,6 +26,10 @@ h1, h2 {
     color: white;
 }
 
+header{
+    margin-bottom: 50px;
+}
+
 #cover-text{
     font-size: 130%;
     font-family: Oswald, sans-serif;
@@ -246,6 +250,7 @@ h1, h2 {
 /* About Us section styles */
 #about-us {
     padding: 50px 20px;
+    height: 80vh;
     
 }
 
