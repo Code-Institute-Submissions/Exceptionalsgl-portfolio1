@@ -10,6 +10,7 @@
 
 body {
     font-weight: 300;
+    
 }
 
 /*headings and logo */
@@ -109,6 +110,7 @@ header {
 
 #service-offer {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
@@ -132,40 +134,58 @@ header {
     margin-top: 20px; 
 }
 
-/* Room Styles */
-.room {
+
+
+
+/* Room page */
+
+#room-page {
     display: flex;
-    flex-direction: column;
-    width: calc(33.33% - 40px); 
-    margin: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
     padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    background-color: #f9f9f9;
-    text-align: center;
+}
+
+.room {
+    flex: 1 1 calc(33.333% - 40px);
     box-sizing: border-box;
-} 
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
 
 .room img {
     width: 100%;
-    max-width: 200px;
-    border-radius: 10px;
-    margin-bottom: 10px;
+    min-height: 263.06px;
 }
 
-.room h3 {
-    margin-bottom: 10px;
+.room h2 {
+    margin-top: 0;
 }
 
-.room p {
-    margin-bottom: 10px;
+.room h3, .room p {
+    margin: 10px;
 }
 
-.clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
+@media (max-width: 900px) {
+    .room {
+        flex: 1 1 calc(50% - 40px);
+    }
 }
+
+@media (max-width: 600px) {
+    .room {
+        flex: 1 1 100%;
+    }
+}
+
+
+
+
+
 
 /* Contact Page Styles */
 #contact {
@@ -236,6 +256,7 @@ header {
 /* About Us section styles */
 #about-us {
     padding: 50px 20px;
+    height: 80vh;
 }
 
 #about-us h1 {
