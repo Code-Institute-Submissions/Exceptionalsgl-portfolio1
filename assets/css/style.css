@@ -1,20 +1,18 @@
 /* import style from google font */
 @import url('https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap'); 
 
-*{
+* {
     padding: 0;
     border: none;
     margin: 0;
+    box-sizing: border-box;
 }
 
-
-body{
+body {
     font-weight: 300;
-
 }
 
 /*headings and logo */
-
 h1, h2 {
     font-family: sans-serif;
     text-transform: uppercase;
@@ -22,58 +20,51 @@ h1, h2 {
     color: green;
     font-size: medium;
 }
-#cover-text, #cover-text h2{
+
+#cover-text, #cover-text h2 {
     color: white;
 }
 
-header{
+header {
     margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
 }
 
-#cover-text{
+#cover-text {
     font-size: 130%;
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-
-    width: 300px;
-    height: 200px;
-
-    padding-top: 40px;
-    padding-left: 10px;
-
+    padding: 40px 10px;
     background-color: purple;
-
+    position: absolute;
     bottom: 30px;
     right: 150px;
-
-    position: absolute;
-
+    width: 300px;
+    height: 200px;
 }
 
 #logo {
-    float: left; 
     margin-left: 30px;
 }
 
-#menu, #logo {
-    line-height: 75px
-}
-
-#menu{
+#menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    line-height: 75px;
     font-size: medium;
     letter-spacing: 4px;
-    display: flex;
-   float: right;
 }
 
-.active{
+.active {
     border-bottom: 1px solid gray;
 }
 
 #menu li {
-    text-decoration: none;
-    float:right;
     list-style: none;
     margin-right: 30px;
     font-size: medium;
@@ -83,23 +74,23 @@ header{
 #menu a {
     text-decoration: none;
 }
+
 #menu a:hover {
     border-bottom: 1px solid gray;
 }
 
 /* Hotel image */
-
-#hotel-image{
+#hotel-image {
     height: 600px;
     width: 100%;
     background: url('../images/hotelpic.jpg') no-repeat center center;
-    
-    /* Annimations effects */
+    background-size: cover;
     animation-name: hotel-ani;
     animation-duration: 5s;
     animation-fill-mode: forwards;
 }
-#hotel-look{
+
+#hotel-look {
     height: 600px;
     width: 100%; 
     overflow: hidden;
@@ -111,21 +102,23 @@ header{
     from {
         transform: scale(1);
     }
-    to{
+    to {
         transform: scale(1.1);
     }
 }
 
 #service-offer {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+    padding: 20px;
 }
 
 #left-about,
 #right-about,
 #center-about {
-    width: 30%; 
+    flex: 1 1 30%;
     padding: 20px;
     text-align: center;
 }
@@ -139,11 +132,10 @@ header{
     margin-top: 20px; 
 }
 
-
-
 /* Room Styles */
 .room {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     width: calc(33.33% - 40px); 
     margin: 20px;
     padding: 20px;
@@ -151,7 +143,6 @@ header{
     border-radius: 10px;
     background-color: #f9f9f9;
     text-align: center;
-    vertical-align: top;
     box-sizing: border-box;
 } 
 
@@ -170,7 +161,6 @@ header{
     margin-bottom: 10px;
 }
 
-
 .clearfix::after {
     content: "";
     display: table;
@@ -179,7 +169,7 @@ header{
 
 /* Contact Page Styles */
 #contact {
-    padding: 50px 0;
+    padding: 50px 20px;
     text-align: center;
 }
 
@@ -243,15 +233,9 @@ header{
     background-color: #0056b3;
 }
 
-
-
-
-
 /* About Us section styles */
 #about-us {
     padding: 50px 20px;
-    height: 80vh;
-    
 }
 
 #about-us h1 {
@@ -265,29 +249,30 @@ header{
 #about-us p {
     font-size: 18px;
     line-height: 1.6;
-    
 }
-
-
 
 /* Footer Styles */
 footer {
     background-color: #f2f2f2;
-    color:gray;
+    color: gray;
     padding: 10px 0;
     text-align: center;
 }
 
 .footer-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
+    align-items: center;
     width: 100%;    
     margin: 0 auto;
 }
 
 .footer-info,
 .footer-social {
-    flex: 1;
+    flex: 1 1 45%;
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 .footer-info h3,
@@ -322,4 +307,57 @@ footer {
 
 .footer-social ul li a:hover {
     text-decoration: underline;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #cover-text {
+        width: auto;
+        height: auto;
+        bottom: 10px;
+        right: 10px;
+    }
+
+    #menu {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #menu li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .room {
+        width: calc(50% - 40px);
+    }
+}
+
+@media (max-width: 480px) {
+    .room {
+        width: calc(100% - 40px);
+    }
+
+    #service-offer {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    #left-about, #right-about, #center-about {
+        width: 100%;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .footer-info, .footer-social {
+        flex: 1 1 100%;
+    }
 }
