@@ -20,6 +20,10 @@ We have different class and forms where users can know the prices of each rooms,
     * [Navigation](#Navigation)
     * [Header](#Header)
      * [Footer](#Header)
+     * [Index Page](#Index-Page)
+     * [Room Page](#Room-Page)
+     * [Contact Us Page](#Contact-Us-Page)
+     * [About Page](#About-Us-Page)
 
 
 * [Deployment & Local Development](#Deployment-&-Local-Development)
@@ -32,10 +36,7 @@ We have different class and forms where users can know the prices of each rooms,
   * [Solved Bugs](#Solved-Bugs)
   * [Known Bugs](#Known-Bugs)
   * [Testing User Stories](#Testing-User-Stories)
-    * [Index Page](#Index-Page)
-    * [Room Page](#Books-Page)
-    * [Contact Us Page](#Contact-Us-Page)
-    * [About Page](#Thank-You-Page)
+    
   * [Full Testing](#Full-Testing)
   
 * [Credits](#Credits)
@@ -163,3 +164,44 @@ The live website has been deployed using GitHub Pages. Follow the steps below to
 ![alt text](<Screenshot 2024-05-18 at 06.52.32.png>)
 
 ![alt text](<Screenshot 2024-05-18 at 06.23.10.png>)
+
+### Full Testing
+* I conducted full test using various browsers and mobile to comprenhsively evaluate my website, such as (mozilla firefox ,google chrome, microsoft edge) and mobile devices (macbook, iphone 13, samsung, tab).
+
+*  I went through each page in web chrome development tools to ensure all pages are responsive and work in all sizes.
+
+*  I test each link to see each of them are linked to all pages of the website (Home, Contact, Room and About page).
+
+*  I test the logo to see its clickable and when click on redirect to homepage of the website.
+
+*  The contact form, i test to submit the form with any input, the form worked fine and ask the user to fill in the field
+![alt text](<Screenshot 2024-05-19 at 06.47.13.png>)
+
+
+## Credits
+
+
+### Code Used
+
+* Code institute love running walkthrough
+
+* /* import style from google font */
+@import url('https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap'); 
+
+* https://www.youtube.com/watch?v=-drcStMYOcM&t=157s.   
+
+
+### Media
+* The background image was taken from exceptional hotels image in google search.
+
+* The room image was also taken from exceptional hotel room image
+
+* The webpage font size was taken from google font imported
+
+### Acknowledgment
+
+* I want to use this opportunity to thank and appreciate my mentor, Mr. Anthony Ugwu for his suport, advice and guilding me all through this project
+
+* I also want to thank student from code institute, he was like a tutor and a friend,  always on slack call with me to support me whenever i run into problem, Mr.Vernell Clark. Thank you for your kind heart. 
+
+* I still want to use this medium to appreciate Mr. Lewis Dillon, our cohort facilitator for his support and advice 
