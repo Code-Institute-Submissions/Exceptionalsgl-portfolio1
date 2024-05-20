@@ -185,8 +185,11 @@ The live website has been deployed using GitHub Pages. Follow the steps below to
 
 * Code institute love running walkthrough
 
-* /* import style from google font */
+*  Import  Google font
 @import url('https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap'); 
+
+* Font Awesome "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
 
 * https://www.youtube.com/watch?v=-drcStMYOcM&t=157s.   
 
