@@ -175,8 +175,8 @@ The live website has been deployed using GitHub Pages. Follow the steps below to
 *  I test the logo to see its clickable and when click on redirect to homepage of the website.
 
 *  The contact form, i test to submit the form with any input, the form worked fine and ask the user to fill in the field
-![alt text](<Screenshot 2024-05-19 at 06.47.13.png>)
-
+![alt text](<Screenshot 2024-05-20 at 23.13.25.png>)
+![alt text](<Screenshot 2024-05-20 at 22.54.02.png>)
 
 ## Credits
 
