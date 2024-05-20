@@ -190,6 +190,8 @@ The live website has been deployed using GitHub Pages. Follow the steps below to
 
 * Font Awesome "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
+* method="POST" action="https://formdump.codeinstitute.net/
+
 
 * https://www.youtube.com/watch?v=-drcStMYOcM&t=157s.   
 
