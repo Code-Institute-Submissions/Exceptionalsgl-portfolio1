@@ -193,7 +193,7 @@ The live website has been deployed using GitHub Pages. Follow the steps below to
 
 * https://www.youtube.com/watch?v=-drcStMYOcM&t=157s.   
 
-
+* The Readme was inspired by code institute Readme template and Kera-Cudmore
 ### Media
 * The background image was taken from exceptional hotels image in google search.
 
