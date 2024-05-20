@@ -94,8 +94,7 @@ The about us has information of the hotel, where to find us and basic services o
 
 **Footer:**
 *  This section has contact details of the hotel, email, phone and social media link the user can click on and access.
-![alt text](<Screenshot 2024-05-18 at 06.01.19.png>)
-
+![alt text](<Screenshot 2024-05-20 at 06.22.57.png>)
 
 ## Deployment 
 
@@ -132,6 +131,7 @@ The live website has been deployed using GitHub Pages. Follow the steps below to
     **Bugs:**
 
     * I had problem with the responsiveness because i use different style pattern , hereby forcing things to work inaproppriate.
+    
     ![alt text](<Screenshot 2024-05-18 at 06.41.16.png>)
 
     * Also i had issue with sizing my containing to appeal in all sizes.
