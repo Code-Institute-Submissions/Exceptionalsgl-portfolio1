@@ -51,15 +51,19 @@ header {
 
 #logo {
     margin-left: 30px;
+    padding: 20px 0 ;
 }
 
 #menu {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+    display: inline;
     line-height: 75px;
     font-size: medium;
     letter-spacing: 4px;
+    right: 0;
+    top: 3.6px;
+    position: absolute;
+    z-index: 3;
+    
 }
 
 .active {
@@ -93,6 +97,11 @@ header {
     background-color: #f9f9f9;
     min-width: 100px;
     z-index: 1;
+    left: -60px;
+    border: 1px solid black;
+    padding: 3px;
+    border-radius: 31px;
+    text-align: center;
 }
 
 .dropdown-content a {
