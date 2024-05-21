@@ -3,7 +3,8 @@
 This Exceptional hotels and apartment is a website design for customers, users and admin to navigate through,  make bookings, contacts and get service and information of the hotels.
 We have different class and forms where users can know the prices of each rooms, see the quality of the room before booking, also a form whereby the user can contact us, and send queries
 
-![alt text](<Screenshot 2024-05-17 at 19.40.01.png>)
+![alt text](<ReadmeScreenshots/Screenshot 2024-05-17 at 19.40.01.png>)
+
 
 
 ## CONTENTS
@@ -77,7 +78,7 @@ This page contains  six beautiful picture of  rooms, the prices of each room, th
 
 * **Contact Us page:** 
 The contact page has a form that helps the user to reach out to us and send queries or complaints, the forms contain user name, email, address and field to enter message.
-![alt text](<Screenshot 2024-05-18 at 06.04.15.png>)
+![alt text](<ReadmeScreenshots/Screenshot 2024-05-18 at 06.04.15.png>)
 
 * **About Us page:** 
 The about us has information of the hotel, where to find us and basic services of  hotel offer. 
@@ -90,11 +91,11 @@ The about us has information of the hotel, where to find us and basic services o
 
 **Navigation Menu:**
 * The navigation and dropdown menu link main section of the website, such as tthe Home, Contact, About and Room
-![alt text](<Screenshot 2024-05-21 at 11.01.04.png>)
+![alt text](<ReadmeScreenshots/Screenshot 2024-05-21 at 11.01.04.png>)
 
 **Footer:**
 *  This section has contact details of the hotel, email, phone and social media link the user can click on and access.
-![alt text](<Screenshot 2024-05-20 at 06.22.57.png>)
+![alt text](<ReadmeScreenshots/Screenshot 2024-05-20 at 06.22.57.png>)
 
 ## Deployment 
 
@@ -132,10 +133,10 @@ The live website has been deployed using GitHub Pages. Follow the steps below to
 
     * I had problem with the responsiveness because i use different style pattern , hereby forcing things to work inaproppriate.
     
-    ![alt text](<Screenshot 2024-05-18 at 06.41.16.png>)
+    ![alt text](<ReadmeScreenshots/Screenshot 2024-05-18 at 06.41.16.png>)
 
     * Also i had issue with sizing my containing to appeal in all sizes.
-    ![alt text](<Screenshot 2024-05-18 at 06.46.28.png>)
+    ![alt text](<ReadmeScreenshots/Screenshot 2024-05-18 at 06.46.28.png>)
 
     * On my contact form , first it was not responsive
 
@@ -144,10 +145,10 @@ The live website has been deployed using GitHub Pages. Follow the steps below to
     **Solved Bugs:**  
      
       * The responsiveness of the website was solved after i show my mentor he advice me to use flexbox in all my css, and when i go back to do that i see the site been responsive and working perfectly in all devices
-      ![alt text](<Screenshot 2024-05-18 at 06.43.01.png>)
+      ![alt text](<ReadmeScreenshots/Screenshot 2024-05-18 at 06.43.01.png>)
 
      * Sizing the container of my rooms page, i had a colleague in code institute Mr Vernell Clark and my Mentor Mr. Anthony who taught me use of dev tools to inspect the site and use of flex and direction on how to make all the images and the container look same
-     ![alt text](<Screenshot 2024-05-18 at 06.47.26.png>)
+     ![alt text](<ReadmeScreenshots/Screenshot 2024-05-18 at 06.47.26.png>)
 
      * Solving my contact form, with the help of the inspect tools shown, i was able to impliment it on the contact form, hereby apllying different styling to it to make it appealing and impliment it in my code.
 
@@ -161,9 +162,9 @@ The live website has been deployed using GitHub Pages. Follow the steps below to
  * About Page HTML
  * Room Page HTML
  * Style.css
-![alt text](<Screenshot 2024-05-18 at 06.52.32.png>)
+![alt text](<ReadmeScreenshots/Screenshot 2024-05-18 at 06.52.32.png>)
 
-![alt text](<Screenshot 2024-05-18 at 06.23.10.png>)
+![alt text](<ReadmeScreenshots/Screenshot 2024-05-18 at 06.23.10.png>)
 
 ### Full Testing
 * I conducted full test using various browsers and mobile to comprenhsively evaluate my website, such as (mozilla firefox ,google chrome, microsoft edge) and mobile devices (macbook, iphone 13, samsung, tab).
@@ -175,8 +176,8 @@ The live website has been deployed using GitHub Pages. Follow the steps below to
 *  I test the logo to see its clickable and when click on redirect to homepage of the website.
 
 *  The contact form, i test to submit the form with any input, the form worked fine and ask the user to fill in the field
-![alt text](<Screenshot 2024-05-20 at 23.13.25.png>)
-![alt text](<Screenshot 2024-05-20 at 22.54.02.png>)
+![alt text](<ReadmeScreenshots/Screenshot 2024-05-20 at 23.13.25.png>)
+![alt text](<ReadmeScreenshots/Screenshot 2024-05-20 at 22.54.02.png>)
 
 ## Credits
 
