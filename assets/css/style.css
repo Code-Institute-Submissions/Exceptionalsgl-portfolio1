@@ -91,13 +91,21 @@ header {
     display: inline-block;
 }
 
+
+
+@media screen and (max-width: 768px) {
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+}
+
 .dropdown-content {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
     min-width: 100px;
     z-index: 1;
-    left: -80px;
+    left: -70px; /* Adjust the left position */
     border: 1px solid black;
     padding: 3px;
     border-radius: 31px;
@@ -106,7 +114,6 @@ header {
 
 .dropdown-content a {
     color: black;
- 
     text-decoration: none;
     display: block;
 }
@@ -116,7 +123,7 @@ header {
 }
 
 .dropdown:hover .dropdown-content {
-    display:block;
+    display: block;
 }
 
 .dropdown:hover .dropbtn {
