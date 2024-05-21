@@ -242,6 +242,7 @@ header {
 #contact {
     padding: 50px 20px;
     text-align: center;
+    height: 90vh;
 }
 
 .contact-info {
