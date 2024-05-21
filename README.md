@@ -89,8 +89,8 @@ The about us has information of the hotel, where to find us and basic services o
 * The logo display the name Exceptional hotel and apartment and its clickable to redirect to homepage 
 
 **Navigation Menu:**
-* The navigation menu link main section of the website, such as tthe Home, Contact, About and Room
-![alt text](<Screenshot 2024-05-18 at 06.02.20.png>)
+* The navigation and dropdown menu link main section of the website, such as tthe Home, Contact, About and Room
+![alt text](<Screenshot 2024-05-21 at 11.01.04.png>)
 
 **Footer:**
 *  This section has contact details of the hotel, email, phone and social media link the user can click on and access.
